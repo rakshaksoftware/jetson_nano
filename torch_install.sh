@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+workon py3torch
 
 cd ~/opencv/build
 sudo make install
