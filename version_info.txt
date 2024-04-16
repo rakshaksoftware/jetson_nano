@@ -1,0 +1,68 @@
+Package: nvidia-jetpack
+Version: 4.6.4-b39
+Architecture: arm64
+Maintainer: NVIDIA Corporation
+Installed-Size: 194
+Depends: nvidia-l4t-jetson-multimedia-api (>> 32.7-0), nvidia-l4t-jetson-multimedia-api (<< 32.8-0), nvidia-cuda (= 4.6.4-b39), nvidia-tensorrt (= 4.6.4-b39), nvidia-nsight-sys (= 4.6.4-b39), nvidia-cudnn8 (= 4.6.4-b39), nvidia-opencv (= 4.6.4-b39), nvidia-container (= 4.6.4-b39), nvidia-visionworks (= 4.6.4-b39), nvidia-vpi (= 4.6.4-b39)
+Homepage: http://developer.nvidia.com/jetson
+Priority: standard
+Section: metapackages
+Filename: pool/main/n/nvidia-jetpack/nvidia-jetpack_4.6.4-b39_arm64.deb
+Size: 29388
+SHA256: adf7a6660f73cdc4f95bc15c48d8588688e3afa5ee18bfd5b3a3caa3a458aa02
+SHA1: 5abbe0df74f71579c1a0ee30ab7c2c236e1bcdbb
+MD5sum: ec293a56d17f2b2793448d621811330d
+Description: NVIDIA Jetpack Meta Package
+Description-md5: ad1462289bdbc54909ae109d1d32c0a8
+
+Package: nvidia-jetpack
+Version: 4.6.3-b17
+Architecture: arm64
+Maintainer: NVIDIA Corporation
+Installed-Size: 194
+Depends: nvidia-l4t-jetson-multimedia-api (>> 32.7-0), nvidia-l4t-jetson-multimedia-api (<< 32.8-0), nvidia-cuda (= 4.6.3-b17), nvidia-tensorrt (= 4.6.3-b17), nvidia-nsight-sys (= 4.6.3-b17), nvidia-cudnn8 (= 4.6.3-b17), nvidia-opencv (= 4.6.3-b17), nvidia-container (= 4.6.3-b17), nvidia-vpi (= 4.6.3-b17)
+Homepage: http://developer.nvidia.com/jetson
+Priority: standard
+Section: metapackages
+Filename: pool/main/n/nvidia-jetpack/nvidia-jetpack_4.6.3-b17_arm64.deb
+Size: 29368
+SHA256: 694254a8667ebbf13852548bdd13a5b8ae61481ac059845b706398eefdcb9e01
+SHA1: 67140fc8463ec61fd69352b225244b639c799edd
+MD5sum: afa1382b6caded6b736d494fc481bab4
+Description: NVIDIA Jetpack Meta Package
+Description-md5: ad1462289bdbc54909ae109d1d32c0a8
+
+Package: nvidia-jetpack
+Version: 4.6.2-b5
+Architecture: arm64
+Maintainer: NVIDIA Corporation
+Installed-Size: 194
+Depends: nvidia-cuda (= 4.6.2-b5), nvidia-opencv (= 4.6.2-b5), nvidia-cudnn8 (= 4.6.2-b5), nvidia-tensorrt (= 4.6.2-b5), nvidia-visionworks (= 4.6.2-b5), nvidia-container (= 4.6.2-b5), nvidia-vpi (= 4.6.2-b5), nvidia-l4t-jetson-multimedia-api (>> 32.7-0), nvidia-l4t-jetson-multimedia-api (<< 32.8-0)
+Homepage: http://developer.nvidia.com/jetson
+Priority: standard
+Section: metapackages
+Filename: pool/main/n/nvidia-jetpack/nvidia-jetpack_4.6.2-b5_arm64.deb
+Size: 29378
+SHA256: 925f4abff97e6024d86cff3b9e132e7c7554d05fb83590487381b7e925d5b2bb
+SHA1: e3ef727e87df5c331aece34508c110d57d744fe9
+MD5sum: 7cb2e387af41bc8143ac7b6525af7794
+Description: NVIDIA Jetpack Meta Package
+Description-md5: ad1462289bdbc54909ae109d1d32c0a8
+
+Package: nvidia-jetpack
+Version: 4.6.1-b110
+Architecture: arm64
+Maintainer: NVIDIA Corporation
+Installed-Size: 194
+Depends: nvidia-cuda (= 4.6.1-b110), nvidia-opencv (= 4.6.1-b110), nvidia-cudnn8 (= 4.6.1-b110), nvidia-tensorrt (= 4.6.1-b110), nvidia-visionworks (= 4.6.1-b110), nvidia-container (= 4.6.1-b110), nvidia-vpi (= 4.6.1-b110), nvidia-l4t-jetson-multimedia-api (>> 32.7-0), nvidia-l4t-jetson-multimedia-api (<< 32.8-0)
+Homepage: http://developer.nvidia.com/jetson
+Priority: standard
+Section: metapackages
+Filename: pool/main/n/nvidia-jetpack/nvidia-jetpack_4.6.1-b110_arm64.deb
+Size: 29366
+SHA256: acfd9e75af780eab165361d61de4b4fe4974890864fe191060b402ac4c2f54d5
+SHA1: a016568ac53705acc145a9f7e60505707bea259f
+MD5sum: 79be976b184a8c885bd9169ea5b7fb7b
+Description: NVIDIA Jetpack Meta Package
+Description-md5: ad1462289bdbc54909ae109d1d32c0a8
+
