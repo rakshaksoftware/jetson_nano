@@ -1,0 +1,8 @@
+E: Failed to fetch http://ports.ubuntu.com/ubuntu-ports/pool/main/d/distro-info-data/distro-info-data_0.37ubuntu0.18_all.deb  503  Service Unavailable [IP: 185.125.190.36 80]
+E: Failed to fetch http://ports.ubuntu.com/ubuntu-ports/pool/main/u/ubuntu-advantage-tools/ubuntu-pro-client-l10n_32.3.1~18.04_arm64.deb  503  Service Unavailable [IP: 185.125.190.36 80]
+E: Failed to fetch http://ports.ubuntu.com/ubuntu-ports/pool/main/u/ubuntu-advantage-tools/ubuntu-pro-client_32.3.1~18.04_arm64.deb  503  Service Unavailable [IP: 185.125.190.36 80]
+E: Failed to fetch http://ports.ubuntu.com/ubuntu-ports/pool/main/u/ubuntu-advantage-tools/ubuntu-advantage-tools_32.3.1~18.04_all.deb  503  Service Unavailable [IP: 185.125.190.36 80]
+E: Failed to fetch http://ports.ubuntu.com/ubuntu-ports/pool/main/u/update-manager/python3-update-manager_18.04.12_all.deb  503  Service Unavailable [IP: 185.125.190.36 80]
+E: Failed to fetch http://ports.ubuntu.com/ubuntu-ports/pool/main/u/update-manager/update-manager-core_18.04.12_all.deb  503  Service Unavailable [IP: 185.125.190.36 80]
+E: Failed to fetch http://ports.ubuntu.com/ubuntu-ports/pool/main/u/update-manager/update-manager_18.04.12_all.deb  503  Service Unavailable [IP: 185.125.190.36 80]
+E: Unable to fetch some archives, maybe run apt-get update or try with --fix-missing?

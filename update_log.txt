@@ -1,0 +1,5 @@
+W: Failed to fetch http://ports.ubuntu.com/ubuntu-ports/dists/bionic/InRelease  503  Service Unavailable [IP: 185.125.190.36 80]
+W: Failed to fetch http://ports.ubuntu.com/ubuntu-ports/dists/bionic-updates/InRelease  503  Service Unavailable [IP: 185.125.190.36 80]
+W: Failed to fetch http://ports.ubuntu.com/ubuntu-ports/dists/bionic-backports/InRelease  503  Service Unavailable [IP: 185.125.190.36 80]
+W: Failed to fetch http://ports.ubuntu.com/ubuntu-ports/dists/bionic-security/InRelease  503  Service Unavailable [IP: 185.125.190.36 80]
+W: Some index files failed to download. They have been ignored, or old ones used instead.
