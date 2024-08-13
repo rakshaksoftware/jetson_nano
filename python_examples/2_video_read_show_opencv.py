@@ -1,8 +1,9 @@
+# -*- coding: utf-8 -*-
 import cv2
 import numpy as np
 
 # Create a VideoCapture object and read from input file
-cap = cv2.VideoCapture('assets/Dog.mp4')  #To capture a video, you need to create a VideoCapture object
+cap = cv2.VideoCapture('file_example_MP4_640_3MG.mp4')  #To capture a video, you need to create a VideoCapture object
 
 # Check if camera opened successfully
 if (cap.isOpened()== False): 
