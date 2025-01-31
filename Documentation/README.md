@@ -1,8 +1,10 @@
-Connecting Jetson Nano to Ubuntu
+**Connecting Jetson Nano to Ubuntu**
 
 1. Install Screen to Bash
 2. Connect Jetson to your laptop using MicroUSB cable
 3. sudo screen/dev/ttyACM0 or screen/dev/ttyACM1
 
-Connecting the Network
-1. 
+**Connecting to Network**
+
+1. Identify WiFi networks using the command: nmcli dev wifi list
+2. Enter the command, sudo nmcli dev wifi connect SSID password "PASSWORD", in Jetson, replace SSID with Network name and "PASSWORD" with the Network password
