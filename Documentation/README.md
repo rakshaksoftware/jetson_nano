@@ -1,4 +1,4 @@
-**Nvidia Jetpack Version 4.6.1**
+**Nvidia Jetpack Version 4.6.1, Python Version 3.6**
 
 **Connecting Jetson Nano to Ubuntu**
 
