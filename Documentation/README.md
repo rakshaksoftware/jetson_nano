@@ -1,3 +1,5 @@
+**Nvidia Jetpack Version 4.6.1**
+
 **Connecting Jetson Nano to Ubuntu**
 
 1. Install Screen to Bash
