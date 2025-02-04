@@ -19,3 +19,10 @@ Run the following commands in the terminal to install it.
 `$ sudo apt update`
 
 `$ sudo apt install nvidia-tensorrt`
+
+**Connecting using SSH**
+Connect to Jetson using screen command and get it's IP address using ifconfig command 
+IP address is the **inet** code under 'wlan0'
+Connect your laptop to same network as Jetson's and run the command 
+`ssh rakshak@<ip address>` 
+in your terminal.
