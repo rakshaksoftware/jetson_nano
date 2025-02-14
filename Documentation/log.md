@@ -1,3 +1,5 @@
 **A NEW START (Harshil, Parinay, Param)**
-FLASHING
+
+
+**FLASHING**
 https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write we are following this documentation
