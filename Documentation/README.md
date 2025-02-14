@@ -28,5 +28,8 @@ Connect your laptop to same network as Jetson's and run the command
 in your terminal.
 
 **Jetson Resources**
-Jetson Support: https://developer.nvidia.com/embedded/community/support-resources
-Jetson Nano wiki: https://elinux.org/Jetson_Nano
+Jetson Support: https://developer.nvidia.com/embedded/community/support-resources  
+Jetson Nano wiki: https://elinux.org/Jetson_Nano  
+Script to get MAC Address of Jetson Nano: https://gist.github.com/dusty-nv/e4314241677cf38f40d556931d0c4a38  
+Jetson Easy setup configurator: https://github.com/rbonghi/jetson_easy  
+jetson-stats is a powerful tool to analyze your board: https://github.com/rbonghi/jetson_stats  
