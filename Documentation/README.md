@@ -26,3 +26,7 @@ IP address is the **inet** code under 'wlan0'
 Connect your laptop to same network as Jetson's and run the command 
 `ssh rakshak@<ip address>` 
 in your terminal.
+
+**Jetson Resources**
+Jetson Support: https://developer.nvidia.com/embedded/community/support-resources
+Jetson Nano wiki: https://elinux.org/Jetson_Nano
