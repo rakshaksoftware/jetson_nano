@@ -8,6 +8,7 @@ https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write
 **HELLO AI WORLD**
 
 We are following https://developer.nvidia.com/embedded/community/jetson-projects/hello_ai_world
+
 building docker container from source (That how we do it :) )- https://github.com/dusty-nv/jetson-inference/blob/master/docs/building-repo-2.md 
 
 **REFERENCES**
