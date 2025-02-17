@@ -14,10 +14,13 @@ building docker container from source (That how we do it :) )- https://github.co
 success
 
 classifying images with imagenet
+We are following https://github.com/dusty-nv/jetson-inference/blob/master/docs/imagenet-console-2.md
 
 success
 
 we tried downloading other image recognition model but failed miserably
+
+Object Detection using DetectNet
 
 
 
