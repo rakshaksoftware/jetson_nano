@@ -8,8 +8,16 @@
 
 **Connecting to Network**
 
-1. Identify WiFi networks using the command: nmcli dev wifi list
-2. Enter the command, sudo nmcli dev wifi connect SSID password "PASSWORD", in Jetson, replace SSID with Network name and "PASSWORD" with the Network password
+1. Show Network connection status using the command: ```nmcli -a```
+1. Identify WiFi networks using the command: ```nmcli dev wifi list```
+2. Enter the command, ```sudo nmcli dev wifi connect SSID password "PASSWORD"```, in Jetson, replace SSID with Network name and "PASSWORD" with the Network password
+
+**More on Networking**
+You cannot use static IP adress for all wifi addresses, because the wlan0 uses ipv4 for each connection  
+Conclusion: You have to look up the IP of your Jetson everytime you connect to a new network. However you can use hotspot from you PC and configure it to connect to your hotspot.  
+You cannot share internet from Linux OS becaue it's wireless driver does not support multiple tasks, i.e. you either connect to internet or provide internet from wifi adapter.  
+You can however share wifi wirelessly from windows just by turning on the hotspot.
+
 
 **Installation of TensorRT**
 
