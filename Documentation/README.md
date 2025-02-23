@@ -16,7 +16,7 @@
 You cannot use static IP adress for all wifi addresses, because the wlan0 uses ipv4 for each connection  
 Conclusion: You have to look up the IP of your Jetson everytime you connect to a new network. However you can use hotspot from you PC and configure it to connect to your hotspot.  
 You cannot share internet from Linux OS becaue it's wireless driver does not support multiple tasks, i.e. you either connect to internet or provide internet from wifi adapter.  
-You can however share wifi wirelessly from windows just by turning on the hotspot.
+You can however share wifi wirelessly from windows just by turning on the hotspot. [And Set up Static IP](https://forums.developer.nvidia.com/t/jetson-nano-faq/82953#p-410022-q-how-to-set-static-ip-on-jetson-nano-29)
 
 
 **Installation of TensorRT**
@@ -44,3 +44,26 @@ jetson-stats is a powerful tool to analyze your board: https://github.com/rbongh
 
 **Projects**
 https://developer.nvidia.com/embedded/community/jetson-projects/hello_ai_world
+
+**Screen Cast on Windows**
+https://forums.developer.nvidia.com/t/jetson-nano-faq/82953  
+Q: Is there any example of running RTSP streaming?  
+There is an ease-to-use gstreamer sample to run RTSP server. The steps:  
+
+Download test-launch.c  
+[gst-rtsp-server/examples/test-launch.c at 1.14.5 · GStreamer/gst-rtsp-server · GitHub](https://github.com/GStreamer/gst-rtsp-server/blob/1.14.5/examples/test-launch.c)
+
+Build the sample
+
+```
+sudo apt-get install libgstrtspserver-1.0 libgstreamer1.0-dev
+gcc test-launch.c -o test-launch $(pkg-config --cflags --libs gstreamer-1.0 gstreamer-rtsp-server-1.0)
+```
+Launch the server
+```
+$ ./test-launch "videotestsrc is-live=1 ! nvvidconv ! nvv4l2h264enc ! h264parse ! rtph264pay name=pay0 pt=96"
+```
+At client side, if the device is a PC with Windows OS, you can open network stream rtsp://<SERVER_IP_ADDRESS>:8554/test via VLC. If it is a Jetson device, you can run the command:
+```
+$ gst-launch-1.0 uridecodebin uri=rtsp://<SERVER_IP_ADDRESS>:8554/test ! nvoverlaysink
+```
