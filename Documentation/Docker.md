@@ -87,4 +87,11 @@ If you are using **Windows Subsystem for Linux 2 (WSL 2)**, you can install the 
 - GPU acceleration (CUDA, TensorRT) **will not work** on Windows because Jetson SDK requires NVIDIA's **Tegra GPU** (ARM-based).
 - The best solution is to **run the SDK natively on a Jetson device** or use **cross-compilation** for development on Windows.
 
-Would you like instructions on **cross-compiling Jetson applications from Windows to Nano**? 🚀
+---
+
+https://www.geeksforgeeks.org/docker-tutorial/  
+
+https://developer.nvidia.com/embedded/learn/tutorials/jetson-container  
+
+https://developer.nvidia.com/embedded/jetson-cloud-native  
+
