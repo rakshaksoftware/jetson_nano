@@ -33,3 +33,16 @@ Tool to read the real MAC address of a Jetson Nano https://gist.github.com/dusty
 how to update - https://github.com/rbonghi/jetson_easy
 
 random stats - https://github.com/rbonghi/jetson_stats
+
+
+---
+18th March 2025  
+Hu Tao (Kashish), Parinay, Param, Harshil, Rushikesh
+
+1. Downloaded the libraries necessary for ArduCam
+https://docs.arducam.com/Nvidia-Jetson-Camera/Jetvariety-Camera/Quick-Start-Guide/#3read-the-sensor-register
+
+2. Tested the camera using Jetson Hello AI World projects.
+   https://github.com/dusty-nv/jetson-inference/blob/master/docs/detectnet-camera-2.md
+
+
